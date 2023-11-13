@@ -17,9 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from weatherapp.views import index
+from weatherapp import views
 
 urlpatterns = [
-    path('', index, name='index'),
+    path('', views.index, name='index'),
+    path('presets/',views.presets, name='presets'),
+    path('forecast/', views.forecast, name='forecast'),
+    path('world/', views.world, name='world'),
     path('admin/', admin.site.urls),
 ]

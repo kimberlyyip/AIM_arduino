@@ -1,0 +1,158 @@
+/* This files contains custom colors and styles for the website.
+
+In particular, changing --primary-background-color and --primary-text-color
+will change those respective attributes for the entire site.
+*/
+
+/* Custom color palette ---------------------------------------------------- */
+:root {
+    --custom-blue: #d1d9e6;
+    --custom-black: #010b1a;
+    --custom-dark-blue: #102747;
+    --custom-light-blue: #235cac;
+
+    /* change the colors here to change these colors of the whole site */
+    /* background colors */
+    --primary-background-color: var(--custom-blue);
+
+    /* text colors */
+    --primary-text-color: var(--custom-black);
+    --secondary-text-color: var(--custom-dark-blue); /* text color on hover */
+    --third-text-color: var(--custom-blue);
+
+    /* button colors */
+    --primary-button-color: var(--custom-dark-blue);
+    --secondary-button-color: var(--custom-light-blue);
+
+    /* link colors */
+    --primary-link-color: #17a2b8;
+    --secondary-link-color: #7abac3;
+}
+
+.blue-background {
+    background-color: var(--custom-blue);
+}
+
+.dark-blue-background {
+    background-color: var(--custom-dark-blue);
+}
+
+.light-blur-background {
+    background-color: var(--custom-light-blue);
+}
+
+.black-background {
+    background-color: var(--custom-black);
+}
+
+/* HTML tag styles --------------------------------------------------------- */
+body {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+/* Override-able blocks defined in base.html ------------------------------- */
+#content-block {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#page-header {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+/* links ------------------------------------------------------------------- */
+.link,
+.btn-link {
+    color: white;
+}
+
+.link:hover,
+.btn-link:hover {
+    color: white;
+}
+
+/* Buttons ----------------------------------------------------------------- */
+.btn {
+    color: white;
+    background-color: var(--primary-button-color);
+    outline-color: var(--primary-button-color);
+    margin-left: 10px;
+}
+
+.active, .btn:hover {
+    background-color: var(--secondary-button-color);
+    outline-color: var(--primary-button-color);
+}
+
+/* Other classes ----------------------------------------------------------- */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.spacer {
+    width: 100%;
+    height: 95px;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+div.buttongroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar-brand {
+    color: var(--primary-text-color);
+    font-size: 50px;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar-brand:hover {
+    color: var(--secondary-text-color);
+    font-size: 50px;
+    margin: 2px;
+}
+
+#main-navbar {
+    background-color: var(--primary-background-color);
+}
+
+h2{
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+
+h3{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+}

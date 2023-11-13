@@ -1,0 +1,56 @@
+{% extends 'weatherapp/base.html' %}
+<!-- Weather widget links: 
+<a href="https://www.flaticon.com/free-icons/morning" title="morning icons">Morning icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/miscellaneous" title="miscellaneous icons">Miscellaneous icons created by Flat Icons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/cloudy" title="cloudy icons">Cloudy icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/sunny" title="sunny icons">Sunny icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/stormy" title="stormy icons">Stormy icons created by Freepik - Flaticon</a>
+-->
+{% block title %}Presets{% endblock %}
+
+{% block header %}
+<a class="navbar-brand px-2 py-2 mb-0 h1 font-weight-bold" href="{% url 'index' %}">Weather Display: Presets</a>
+{% endblock header %}
+
+{% block content %}
+    {% load static %}
+    <h2>Choose a weather forecast you would like to be displayed!</h2>
+    <h3 class="font-weight-bold">Time of Day:</h3>
+    <form method="post">
+        {% csrf_token %}
+        <div class = "buttongroup">
+            <button class="btn" name="midday" value="midday">
+                <img src="{% static 'icons/sun.png' %}" alt="buttonpng"/>
+                <div>Midday</div>
+            </button>
+            <button class="btn" name="sunriseset" value="sunriseset">
+                <img src="{% static 'icons/sunrise.png' %}" alt="buttonpng"/>
+                <div>Sunrise/Sunset</div>
+            </button>
+            <button class="btn" name="night" value="night">
+                <img src="{% static 'icons/night.png' %}" alt="buttonpng"/>
+                <div>Night</div>
+            </button>
+        </div>
+    </form>
+    <h3 class="font-weight-bold">Weather Presets:</h3>
+    <form method="post">
+        {% csrf_token %}
+        <div class = "buttongroup">
+            <button class="btn" name="sunny" value="sunny">
+                <img src="{% static 'icons/sunny.png' %}" alt="buttonpng"/>
+                <div>Sunny</div>
+            </button>
+            <button class="btn" name="cloudy" value="cloudy">
+                <img src="{% static 'icons/cloudy.png' %}" alt="buttonpng"/>
+                <div>Cloudy</div>
+            </button>
+            <button class="btn" name="stormy" value="stormy">
+                <img src="{% static 'icons/thunder.png' %}" alt="buttonpng"/>
+                <div>Stormy</div>
+            </button>
+        </div>
+    </form>
+
+{% endblock %}

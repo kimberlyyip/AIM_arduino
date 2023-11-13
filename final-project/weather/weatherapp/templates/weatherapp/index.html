@@ -1,7 +1,30 @@
 {% extends 'weatherapp/base.html' %}
-
+<!-- Weather widget links: 
+<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Eucalyp - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Eucalyp - Flaticon</a>
+-->
 {% block title %}Welcome{% endblock %}
 
+{% block header %}
+    <a class="navbar-brand px-2 py-2 mb-0 h1 font-weight-bold" href="{% url 'index' %}">Weather Display</a>
+{% endblock header %}
+
 {% block content %}
-    <h1>The front page</h1>
+    {% load static %}
+    <div class = "buttongroup">
+        <a type="button" class="btn" name="preset" href="{% url 'presets' %}">
+            <img src="{% static 'icons/weather-news.png' %}" alt="buttonpng"/>
+            <div>Presets</div>
+        </a>
+        <a type="button" class="btn" name="weather-forecast" href="{% url 'forecast' %}">
+            <img src="{% static 'icons/weather-forecast.png' %}" alt="buttonpng"/>
+            <div>Weather Forecast</div>
+        </a>
+        <a type="button" class="btn" name="world" href="{% url 'world' %}">
+            <img src="{% static 'icons/climate.png' %}" alt="buttonpng"/>
+            <div>Around the World</div>
+        </a>
+    </div>
+
 {% endblock %}

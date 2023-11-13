@@ -3,13 +3,14 @@
 Servo cloudLeft;
 Servo cloudMid;
 Servo cloudRight;
-Servo skyLeft; 
-Servo skyRight;
+Servo sky;
 
-bool up = true;
-bool down = true;
-bool storm = true;
-bool nostorm = true;
+bool upCloud;
+bool downCloud; 
+bool storm;
+bool noStorm;
+bool changeRight; 
+bool changeLeft;
 
 // Values for RGB on the right side of the frame
 const int redRight   = 9;
@@ -28,8 +29,7 @@ const int blueMid  = 7;
 
 
 void setup() {
-  skyRight.attach(38);
-  skyLeft.attach(39);
+  sky.attach(38);
 
   cloudLeft.attach(45);
   cloudMid.attach(44);
@@ -48,6 +48,7 @@ void setup() {
   pinMode(blueMid,  OUTPUT);
 
   Serial.begin(9600);
+  Serial.print('A');
 }
 
 /** Cloud related functions **/
@@ -72,14 +73,16 @@ void cloudUp(){
 }
 
 void lightning(int redpin, int greenpin, int bluepin){
-  analogWrite(redpin,   0);
-  analogWrite(greenpin, 0);
-  analogWrite(bluepin,  0);
-  delay(50);
-  analogWrite(redpin,   255);
-  analogWrite(greenpin, 255);
-  analogWrite(bluepin,  255);
-  delay(50);
+  while (true) {
+    analogWrite(redpin,   0);
+    analogWrite(greenpin, 0);
+    analogWrite(bluepin,  0);
+    delay(100);
+    analogWrite(redpin,   255);
+    analogWrite(greenpin, 255);
+    analogWrite(bluepin,  255);
+    delay(100);
+  }
 }
 
 void nolight(int redpin, int greenpin, int bluepin){
@@ -88,41 +91,59 @@ void nolight(int redpin, int greenpin, int bluepin){
   analogWrite(bluepin,  255);
 }
 
-void showLeft(){
-  skyRight.write(80);
-  skyLeft.write(80);
+void showRight(){
+  sky.write(110);
+  delay(4500);
+  sky.write(91);
 }
 
-void showRight(){
-  skyRight.write(100);
-  skyLeft.write(100);
+void showLeft(){
+  sky.write(80);
+  delay(5350);
+  sky.write(91);
 }
 
 void loop() {
-  // if (up){
-  //   cloudDown();
-  //   up = false;
-  //   down = true; 
-  // } 
-  // if (down){
-  //   cloudUp();
-  //   down = false;
-  //   // up = true;
-  // }
+  if (Serial.available() > 5) {
+    // reads the queue
+    upCloud = Serial.read();
+    downCloud = Serial.read();
+    storm = Serial.read();
+    noStorm = Serial.read();
+    changeRight = Serial.read();
+    changeLeft = Serial.read();
+  }
 
-  // if (storm){
-  //   lightning(redRight, greenRight, blueRight);
-  //   lightning(redLeft, greenLeft, blueLeft);
-  //   lightning(redMid, greenMid, blueMid);
-  // }
+  if (upCloud){
+    cloudDown(); 
+    upCloud = false;
+    lastCloud = 1;
+  } 
+  if (downCloud){
+    cloudUp();
+    downCloud = false;
+    lastCloud = 2;
+  }
 
-  nolight(redRight, greenRight, blueRight);
-  nolight(redLeft, greenLeft, blueLeft);
-  nolight(redMid, greenMid, blueMid);
+  if (storm){
+    lightning(redRight, greenRight, blueRight);
+    lightning(redLeft, greenLeft, blueLeft);
+    lightning(redMid, greenMid, blueMid);
+    storm = false;
+  }
+  if (noStorm){
+    nolight(redRight, greenRight, blueRight);
+    nolight(redLeft, greenLeft, blueLeft);
+    nolight(redMid, greenMid, blueMid);
+    noStorm = false;
+  }
 
-  
-  
-
-  
-
+  if (changeLeft){
+    showLeft();
+    changeLeft = false;
+  }
+  if (changeRight){
+    showRight();
+    changeRight = false;
+  }
 }

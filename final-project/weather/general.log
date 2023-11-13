@@ -1,0 +1,61 @@
+11/13/2023 01:24:55 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 01:25:04 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
+11/13/2023 01:25:08 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 01:37:09 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 01:37:14 AM UTC | ERROR:(log.py:241) | Internal Server Error: /presets/
+Traceback (most recent call last):
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 17, in presets
+    file = open('./weather/general.log','r')
+FileNotFoundError: [Errno 2] No such file or directory: './weather/general.log'
+11/13/2023 01:37:55 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/13/2023 01:37:56 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 01:38:00 AM UTC | ERROR:(log.py:241) | Internal Server Error: /presets/
+Traceback (most recent call last):
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 17, in presets
+    file = open('../general.log','r')
+FileNotFoundError: [Errno 2] No such file or directory: '../general.log'
+11/13/2023 01:38:09 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/13/2023 01:38:09 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 01:38:17 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
+11/13/2023 01:38:27 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 01:38:38 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy
+11/13/2023 01:38:43 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 01:38:47 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy
+11/13/2023 01:38:54 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
+11/13/2023 01:38:59 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 01:39:04 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 01:39:10 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 02:54:34 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 02:56:47 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/13/2023 02:56:47 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 02:57:59 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/13/2023 02:57:59 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 02:58:08 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/13/2023 02:58:09 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/13/2023 02:58:13 AM UTC | ERROR:(log.py:241) | Internal Server Error: /presets/
+Traceback (most recent call last):
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 68, in presets
+    processPresets(False, False, False, True, changeRight, changeLeft, True)
+UnboundLocalError: local variable 'changeRight' referenced before assignment
+11/13/2023 02:58:55 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 02:59:00 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
+11/13/2023 02:59:03 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
+11/13/2023 02:59:06 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy
+11/13/2023 02:59:29 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: night
+11/13/2023 02:59:34 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunriseset
+11/13/2023 02:59:37 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: night
+11/13/2023 02:59:40 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: night
+11/13/2023 02:59:43 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: midday
+11/13/2023 02:59:47 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: midday
