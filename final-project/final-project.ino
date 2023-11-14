@@ -99,7 +99,7 @@ void showRight(){
 
 void showLeft(){
   sky.write(80);
-  delay(5500);
+  delay(4750);
   sky.write(91);
 }
 
