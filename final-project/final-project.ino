@@ -4,6 +4,7 @@ Servo cloudLeft;
 Servo cloudMid;
 Servo cloudRight;
 Servo sky;
+Servo thunder;
 
 bool upCloud;
 bool downCloud; 
@@ -30,6 +31,7 @@ const int blueMid  = 7;
 
 void setup() {
   sky.attach(38);
+  thunder.attach(22);
 
   cloudLeft.attach(45);
   cloudMid.attach(44);
@@ -73,16 +75,14 @@ void cloudUp(){
 }
 
 void lightning(int redpin, int greenpin, int bluepin){
-  while (true) {
-    analogWrite(redpin,   0);
-    analogWrite(greenpin, 0);
-    analogWrite(bluepin,  0);
-    delay(100);
-    analogWrite(redpin,   255);
-    analogWrite(greenpin, 255);
-    analogWrite(bluepin,  255);
-    delay(100);
-  }
+  analogWrite(redpin,   0);
+  analogWrite(greenpin, 0);
+  analogWrite(bluepin,  0);
+  delay(100);
+  analogWrite(redpin,   255);
+  analogWrite(greenpin, 255);
+  analogWrite(bluepin,  255);
+  delay(100);
 }
 
 void nolight(int redpin, int greenpin, int bluepin){
@@ -99,11 +99,24 @@ void showRight(){
 
 void showLeft(){
   sky.write(80);
-  delay(5350);
+  delay(5500);
   sky.write(91);
 }
 
 void loop() {
+  analogWrite(redMid,   0);
+  analogWrite(greenMid, 0);
+  analogWrite(blueMid,  0);
+
+  analogWrite(redRight,   0);
+  analogWrite(greenRight, 0);
+  analogWrite(blueRight,  0);
+
+  analogWrite(redLeft,   0);
+  analogWrite(greenLeft, 0);
+  analogWrite(blueLeft,  0);
+
+
   if (Serial.available() > 5) {
     // reads the queue
     upCloud = Serial.read();
@@ -117,19 +130,20 @@ void loop() {
   if (upCloud){
     cloudDown(); 
     upCloud = false;
-    lastCloud = 1;
   } 
   if (downCloud){
     cloudUp();
     downCloud = false;
-    lastCloud = 2;
   }
 
   if (storm){
-    lightning(redRight, greenRight, blueRight);
-    lightning(redLeft, greenLeft, blueLeft);
-    lightning(redMid, greenMid, blueMid);
-    storm = false;
+    while(true){
+      lightning(redRight, greenRight, blueRight);
+      lightning(redLeft, greenLeft, blueLeft);
+      lightning(redMid, greenMid, blueMid);
+      thunder.write(80);
+      storm = false;
+    }
   }
   if (noStorm){
     nolight(redRight, greenRight, blueRight);

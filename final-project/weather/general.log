@@ -1,61 +1,104 @@
-11/13/2023 01:24:55 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 01:25:04 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
-11/13/2023 01:25:08 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 01:37:09 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 01:37:14 AM UTC | ERROR:(log.py:241) | Internal Server Error: /presets/
+11/14/2023 05:02:48 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:03:03 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: n/a | time: midday
+11/14/2023 05:03:09 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: n/a | time: sunriseset
+11/14/2023 05:03:21 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: n/a | time: night
+11/14/2023 05:06:02 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:06:02 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:06:19 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:06:19 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:06:33 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:06:33 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:06:40 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: n/a
+11/14/2023 05:06:44 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: n/a
+11/14/2023 05:07:01 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:07:01 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:07:05 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:07:05 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:07:19 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:07:20 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:07:37 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: n/a
+11/14/2023 05:07:45 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: n/a
+11/14/2023 05:07:53 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: n/a
+11/14/2023 05:08:11 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:08:12 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:08:31 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: n/a
+11/14/2023 05:08:54 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:08:59 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: n/a
+11/14/2023 05:09:09 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: n/a
+11/14/2023 05:09:28 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: n/a | time: midday
+11/14/2023 05:10:20 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:10:26 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: n/a | time: night
+11/14/2023 05:10:42 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: n/a
+11/14/2023 05:10:47 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: n/a
+11/14/2023 05:11:11 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: n/a
+11/14/2023 05:13:24 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:13:33 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: changes | time: night
+11/14/2023 05:13:47 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: night
+11/14/2023 05:13:57 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/14/2023 05:14:50 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:14:50 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:14:57 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/14/2023 05:15:11 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/14/2023 05:15:16 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: sunriseset
+11/14/2023 05:15:23 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: midday
+11/14/2023 05:19:31 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:19:40 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/14/2023 05:19:50 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/14/2023 05:19:56 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: midday
+11/14/2023 05:20:07 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: night
+11/14/2023 05:21:48 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: night
+11/14/2023 05:22:05 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/14/2023 05:22:10 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/14/2023 05:23:23 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:23:23 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:23:33 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:23:33 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:23:39 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/14/2023 05:23:44 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: night
+11/14/2023 05:23:51 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: sunriseset
+11/14/2023 05:24:10 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: sunriseset
+11/14/2023 05:24:52 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/14/2023 05:24:56 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/14/2023 05:26:20 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:26:20 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:26:26 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/14/2023 05:26:34 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/14/2023 05:26:39 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/14/2023 05:26:42 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: sunriseset
+11/14/2023 05:26:57 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: night
+11/14/2023 05:27:33 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: night
+11/14/2023 05:27:40 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: sunny
+11/14/2023 05:30:23 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:30:23 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:30:35 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/14/2023 05:30:39 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/14/2023 05:30:55 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/14/2023 05:31:22 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/helper/processUserInput.py changed, reloading.
+11/14/2023 05:31:22 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:31:39 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/helper/processUserInput.py changed, reloading.
+11/14/2023 05:31:39 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:31:45 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/helper/processUserInput.py changed, reloading.
+11/14/2023 05:31:46 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:31:53 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:31:53 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:32:07 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:32:07 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:32:13 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/14/2023 05:32:17 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: night
+11/14/2023 05:32:26 AM UTC | ERROR:(log.py:241) | Internal Server Error: /forecast/
 Traceback (most recent call last):
   File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
     response = get_response(request)
   File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 17, in presets
-    file = open('./weather/general.log','r')
-FileNotFoundError: [Errno 2] No such file or directory: './weather/general.log'
-11/13/2023 01:37:55 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
-11/13/2023 01:37:56 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 01:38:00 AM UTC | ERROR:(log.py:241) | Internal Server Error: /presets/
-Traceback (most recent call last):
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 17, in presets
-    file = open('../general.log','r')
-FileNotFoundError: [Errno 2] No such file or directory: '../general.log'
-11/13/2023 01:38:09 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
-11/13/2023 01:38:09 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 01:38:17 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
-11/13/2023 01:38:27 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 01:38:38 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy
-11/13/2023 01:38:43 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 01:38:47 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy
-11/13/2023 01:38:54 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
-11/13/2023 01:38:59 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 01:39:04 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 01:39:10 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 02:54:34 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 02:56:47 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
-11/13/2023 02:56:47 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 02:57:59 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
-11/13/2023 02:57:59 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 02:58:08 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
-11/13/2023 02:58:09 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
-11/13/2023 02:58:13 AM UTC | ERROR:(log.py:241) | Internal Server Error: /presets/
-Traceback (most recent call last):
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 68, in presets
-    processPresets(False, False, False, True, changeRight, changeLeft, True)
-UnboundLocalError: local variable 'changeRight' referenced before assignment
-11/13/2023 02:58:55 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 02:59:00 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny
-11/13/2023 02:59:03 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy
-11/13/2023 02:59:06 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy
-11/13/2023 02:59:29 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: night
-11/13/2023 02:59:34 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunriseset
-11/13/2023 02:59:37 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: night
-11/13/2023 02:59:40 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: night
-11/13/2023 02:59:43 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: midday
-11/13/2023 02:59:47 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: midday
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 231, in forecast
+    time.sleep(3)
+AttributeError: 'str' object has no attribute 'sleep'
+11/14/2023 05:32:52 AM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/14/2023 05:32:53 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:33:50 AM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/14/2023 05:34:00 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/14/2023 05:34:04 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/14/2023 05:34:10 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/14/2023 05:34:19 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: sunriseset
+11/14/2023 05:34:33 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday

@@ -1,8 +1,7 @@
 {% extends 'weatherapp/base.html' %}
 <!-- Weather widget links: 
-<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Freepik - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Eucalyp - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by Eucalyp - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/today" title="today icons">Today icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/tomorrow" title="tomorrow icons">Tomorrow icons created by Freepik - Flaticon</a>
 -->
 {% block title %}Weather Forecast{% endblock %}
 
@@ -12,6 +11,19 @@
 
 {% block content %}
     {% load static %}
-    
+    <h2>Choose a day you would like to be displayed!</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class = "buttongroup">
+            <button class="btn" name="today" value="today">
+                <img src="{% static 'icons/forecast.png' %}" alt="buttonpng"/>
+                <div>Today</div>
+            </button>
+            <button class="btn" name="tomorrow" value="tomorrow">
+                <img src="{% static 'icons/tomorrow.png' %}" alt="buttonpng"/>
+                <div>Tomorrow</div>
+            </button>
+        </div>
+    </form>
 
 {% endblock %}

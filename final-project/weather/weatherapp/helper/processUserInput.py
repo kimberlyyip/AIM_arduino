@@ -23,4 +23,4 @@ def processPresets(upCloud, downCloud, storm, noStorm, changeRight, changeLeft, 
             print(my_bytearray)
             my_bytes = bytes(my_bytearray)
             ser.write(my_bytes)
-        time.sleep(3) # Sleep for 3 seconds
+        time.sleep(1)

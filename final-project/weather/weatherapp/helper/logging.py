@@ -17,11 +17,12 @@ def get_user_ip_address(request):
 
 
 def log_query_as_INFO(
-    userIP: str, type: str
+    userIP: str, type: str, time: str
 ):
     logger.info(
-        "User IP: {} | type: {}".format(
+        "User IP: {} | type: {} | time: {}".format(
             userIP,
             type,
+            time,
         )
     )
