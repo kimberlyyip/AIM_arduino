@@ -1,11 +1,13 @@
 #include <Servo.h>
 
+// Declaring Servos
 Servo cloudLeft;
 Servo cloudMid;
 Servo cloudRight;
 Servo sky;
 Servo thunder;
 
+// Declaring boolean values used
 bool upCloud;
 bool downCloud; 
 bool storm;
@@ -50,10 +52,12 @@ void setup() {
   pinMode(blueMid,  OUTPUT);
 
   Serial.begin(9600);
+  // Ensures the arduino and python connection is established well
   Serial.print('A');
 }
 
 /** Cloud related functions **/
+// Brings the clouds down
 void cloudDown(){
   cloudLeft.write(80);
   cloudMid.write(78);
@@ -64,6 +68,7 @@ void cloudDown(){
   cloudRight.write(91);
 }
 
+// Brings the clouds up
 void cloudUp(){
   cloudLeft.write(104);
   cloudMid.write(107);
@@ -74,6 +79,7 @@ void cloudUp(){
   cloudRight.write(91);
 }
 
+// Triggers lightning
 void lightning(int redpin, int greenpin, int bluepin){
   analogWrite(redpin,   0);
   analogWrite(greenpin, 0);
@@ -85,18 +91,21 @@ void lightning(int redpin, int greenpin, int bluepin){
   delay(100);
 }
 
-void nolight(int redpin, int greenpin, int bluepin){
-  analogWrite(redpin,   255);
-  analogWrite(greenpin, 255);
-  analogWrite(bluepin,  255);
+// Keeps a constant light on to illuminate the backdrop
+void constantlight(int redpin, int greenpin, int bluepin){
+  analogWrite(redpin,   0;
+  analogWrite(greenpin, 0);
+  analogWrite(bluepin,  0);
 }
 
+// Turns the rotating backdrop right: midday -> night -> sunriseset
 void showRight(){
   sky.write(110);
   delay(4500);
   sky.write(91);
 }
 
+// Turns the rotating backdrop left: midday -> sunriseset -> night
 void showLeft(){
   sky.write(80);
   delay(4750);
@@ -104,21 +113,8 @@ void showLeft(){
 }
 
 void loop() {
-  analogWrite(redMid,   0);
-  analogWrite(greenMid, 0);
-  analogWrite(blueMid,  0);
-
-  analogWrite(redRight,   0);
-  analogWrite(greenRight, 0);
-  analogWrite(blueRight,  0);
-
-  analogWrite(redLeft,   0);
-  analogWrite(greenLeft, 0);
-  analogWrite(blueLeft,  0);
-
-
   if (Serial.available() > 5) {
-    // reads the queue
+    // reads the queue of data sent by python
     upCloud = Serial.read();
     downCloud = Serial.read();
     storm = Serial.read();
@@ -127,15 +123,18 @@ void loop() {
     changeLeft = Serial.read();
   }
 
+  // If the cloud is currently up, bring the clouds down.
   if (upCloud){
     cloudDown(); 
     upCloud = false;
   } 
+  // If the cloud is currently down, bring the clouds up.
   if (downCloud){
     cloudUp();
     downCloud = false;
   }
 
+  // If it is stormy, turn on lightning and thunder
   if (storm){
     while(true){
       lightning(redRight, greenRight, blueRight);
@@ -145,17 +144,22 @@ void loop() {
       storm = false;
     }
   }
+
+  // If it is not stormy, keep lights on to illuminate the backdrop
   if (noStorm){
-    nolight(redRight, greenRight, blueRight);
-    nolight(redLeft, greenLeft, blueLeft);
-    nolight(redMid, greenMid, blueMid);
+    constantlight(redRight, greenRight, blueRight);
+    constantlight(redLeft, greenLeft, blueLeft);
+    constantlight(redMid, greenMid, blueMid);
     noStorm = false;
   }
 
+  // If changeLeft, turn the backdrop left
   if (changeLeft){
     showLeft();
     changeLeft = false;
   }
+
+  // If changeRight, turn the backdrop right
   if (changeRight){
     showRight();
     changeRight = false;
