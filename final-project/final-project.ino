@@ -51,6 +51,8 @@ void setup() {
   pinMode(greenMid, OUTPUT);
   pinMode(blueMid,  OUTPUT);
 
+  pinMode(26, INPUT);
+
   Serial.begin(9600);
   // Ensures the arduino and python connection is established well
   Serial.print('A');
@@ -93,7 +95,7 @@ void lightning(int redpin, int greenpin, int bluepin){
 
 // Keeps a constant light on to illuminate the backdrop
 void constantlight(int redpin, int greenpin, int bluepin){
-  analogWrite(redpin,   0;
+  analogWrite(redpin,   0);
   analogWrite(greenpin, 0);
   analogWrite(bluepin,  0);
 }
@@ -101,15 +103,21 @@ void constantlight(int redpin, int greenpin, int bluepin){
 // Turns the rotating backdrop right: midday -> night -> sunriseset
 void showRight(){
   sky.write(110);
-  delay(4500);
-  sky.write(91);
+  delay(1000);
+  while (digitalRead(26) != LOW){
+    sky.write(110);
+  }
+  sky.write(92);
 }
 
 // Turns the rotating backdrop left: midday -> sunriseset -> night
 void showLeft(){
   sky.write(80);
-  delay(4750);
-  sky.write(91);
+  delay(1000);
+  while (digitalRead(26) != LOW){
+    sky.write(80);
+  }
+  sky.write(92);
 }
 
 void loop() {
