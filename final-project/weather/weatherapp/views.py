@@ -271,7 +271,7 @@ def forecast(request):
                 print("still midday")
             processPresets(False, False, False, True, changeRight, changeLeft, True)
             # sleep for 3 sec to allow the backdrop to change if needed
-            time.sleep(3)
+            time.sleep(5)
 
             # If the reported precipitation is above 4, change the setting to 'stormy'
             # 1-5 mm of precipitation is considered light to moderate rain,
@@ -304,7 +304,3 @@ def forecast(request):
         
         log_query_as_INFO(get_user_ip_address(request), task, time_act)
     return render(request, 'weatherapp/forecast.html')
-
-# Renders the Around the World page. Currently empty and waiting on possible future implementation
-def world(request):
-    return render(request, 'weatherapp/world.html')

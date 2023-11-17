@@ -148,7 +148,7 @@ void loop() {
       lightning(redRight, greenRight, blueRight);
       lightning(redLeft, greenLeft, blueLeft);
       lightning(redMid, greenMid, blueMid);
-      thunder.write(80);
+      thunder.write(82);
       storm = false;
     }
   }

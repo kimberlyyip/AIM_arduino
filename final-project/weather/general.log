@@ -471,3 +471,186 @@ serial.serialutil.SerialException: read failed: [Errno 6] Device not configured
 11/16/2023 12:26:28 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
 11/16/2023 12:26:43 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
 11/16/2023 12:26:55 AM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 10:34:13 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/16/2023 10:34:19 PM UTC | WARNING:(log.py:241) | Not Found: /favicon.ico
+11/16/2023 10:34:26 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:34:29 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:40:01 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:40:09 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:40:37 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:40:56 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:41:05 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:41:16 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:42:31 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:42:44 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:43:39 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:43:48 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:44:01 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:47:38 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:47:50 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:48:25 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:48:35 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:49:51 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:49:54 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:50:23 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 10:53:06 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 10:54:15 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 10:54:23 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 11:00:16 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 11:00:23 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 11:00:28 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: night
+11/16/2023 11:00:36 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: sunriseset
+11/16/2023 11:00:42 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 11:04:20 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: | | time: midday
+11/16/2023 11:04:33 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/16/2023 11:05:07 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:05:14 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:05:27 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/16/2023 11:06:37 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:06:43 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/16/2023 11:06:49 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:06:52 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:06:56 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:07:03 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:27:45 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:29:02 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:29:14 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:30:07 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:30:12 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:30:18 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:32:50 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:33:01 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:35:25 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:35:31 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:35:40 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:38:40 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:38:47 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:38:55 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:39:08 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:39:55 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:40:11 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:40:34 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:40:59 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:41:12 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:41:20 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:41:34 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:48:09 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:48:15 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:48:43 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:49:03 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/16/2023 11:50:36 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:50:44 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/16/2023 11:50:53 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/16/2023 11:51:07 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/17/2023 06:27:11 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:27:28 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:27:47 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:27:52 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:28:20 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:30:12 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:31:38 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:32:24 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:32:47 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:33:10 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:33:45 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:33:50 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:34:22 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:35:22 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:35:48 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:36:04 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:37:12 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: StatReloader
+11/17/2023 06:37:28 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:37:34 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: StatReloader
+11/17/2023 06:42:08 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:42:13 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/17/2023 06:42:18 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: night
+11/17/2023 06:42:23 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/17/2023 06:43:18 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/17/2023 06:43:53 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/17/2023 06:44:10 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/17/2023 06:44:50 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/17/2023 06:45:01 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: cloudy | time: night
+11/17/2023 06:45:08 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: stormy | time: night
+11/17/2023 06:45:18 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/17/2023 06:45:26 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/17/2023 06:45:49 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/17/2023 06:45:55 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/17/2023 06:46:03 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/17/2023 06:47:20 PM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/17/2023 06:47:21 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:47:28 PM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weather/urls.py changed, reloading.
+11/17/2023 06:47:29 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:47:48 PM UTC | INFO:(autoreload.py:266) | /Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py changed, reloading.
+11/17/2023 06:47:48 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:48:04 PM UTC | ERROR:(log.py:241) | Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/weather/weatherapp/views.py", line 21, in index
+    return render(request, 'weatherapp/index.html')
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/Users/kimberlyyip/GitHub/AIM_arduino/final-project/finalproj/lib/python3.9/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'world' not found. 'world' is not a valid view function or pattern name.
+11/17/2023 06:48:43 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: function | time: sunriseset
+11/17/2023 06:48:46 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: function | time: midday
+11/17/2023 06:49:02 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: function | time: night
+11/17/2023 06:49:25 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: function | time: sunriseset
+11/17/2023 06:49:31 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: function | time: sunriseset
+11/17/2023 06:49:34 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: function | time: sunriseset
+11/17/2023 06:49:42 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:49:47 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/17/2023 06:50:03 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/17/2023 06:50:21 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/17/2023 06:50:50 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/17/2023 06:51:10 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:51:16 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: midday
+11/17/2023 06:51:18 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/17/2023 06:51:55 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/17/2023 06:52:03 PM UTC | INFO:(autoreload.py:668) | Watching for file changes with StatReloader
+11/17/2023 06:52:11 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: night
+11/17/2023 06:52:15 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: file | time: sunriseset
+11/17/2023 06:52:39 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/17/2023 06:52:54 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday
+11/17/2023 06:53:05 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: night
+11/17/2023 06:53:14 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: sunriseset
+11/17/2023 06:53:29 PM UTC | INFO:(logging.py:22) | User IP: 127.0.0.1 | type: sunny | time: midday

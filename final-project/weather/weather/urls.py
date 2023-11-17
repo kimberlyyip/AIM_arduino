@@ -23,6 +23,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('presets/',views.presets, name='presets'),
     path('forecast/', views.forecast, name='forecast'),
-    path('world/', views.world, name='world'),
     path('admin/', admin.site.urls),
 ]
